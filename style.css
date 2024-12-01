@@ -1,0 +1,78 @@
+
+
+
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px; /* Relleno interno */
+    margin: 100px; /* Margen externo */
+  }
+  
+  h1, h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
+  
+  /* Estilo corregido para los botones de opción y las casillas de verificación */
+  input[type="radio"], 
+  input[type="checkbox"] {
+    margin-right: 10px;  /* Espacio entre el botón y la etiqueta */
+    vertical-align: middle;  /* Alineación vertical para que queden al mismo nivel que el texto */
+  }
+  
+  label {
+    font-size: 1.1em;
+    color: #555;
+    margin-right: 20px; /* Espacio entre el checkbox/radio y la etiqueta */
+  }
+  
